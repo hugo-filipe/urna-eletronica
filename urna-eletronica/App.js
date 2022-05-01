@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import Login from './src/telas/Login';
+import { NativeBaseProvider } from 'native-base';
 
 export default function App() {
   return (
+    <NativeBaseProvider>
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Login/>
       <StatusBar style="auto" />
     </View>
+    </NativeBaseProvider>
   );
 }
 
