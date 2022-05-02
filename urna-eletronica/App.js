@@ -4,6 +4,7 @@ import Login from './src/telas/Login';
 import { NativeBaseProvider } from 'native-base';
 
 export default function App() {
+
   return (
     <NativeBaseProvider>
     <View style={styles.container}>
@@ -17,7 +18,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#f2f3f4',
     alignItems: 'center',
     justifyContent: 'center',
   },
